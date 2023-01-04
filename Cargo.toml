@@ -3,6 +3,18 @@ name = "just-some-kernel"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "some-kernel-u-boot-aarch64"
+test = false
+bench = false
+path = "bin/aarch64/u-boot.rs"
+
+[[bin]]
+name = "some-kernel-multiboot-x86_64"
+test = false
+bench = false
+path = "bin/x86_64/multiboot.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]

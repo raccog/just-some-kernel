@@ -18,7 +18,7 @@
   ],
   "pre-link-args": {
     "ld.lld": [
-      "-Taarch64-unknown-none.ld"
+      "-Tmeta/link/aarch64-unknown-none.ld"
     ]
   },
   "target-pointer-width": "64"

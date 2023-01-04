@@ -2,6 +2,10 @@
 
 A microkernel that I'm messing around with. In its incredibly early stages.
 
+You can run it on QEMU x86_64 with `./run.sh`, just be warned I don't have a full list of dependencies yet.
+
+You can run it on QEMU aarch64 with `./run.sh aarch64`.
+
 ## TODO List
 
 The first thing I want to do is to get a working scheduler that can run further programs such as a file system and other drivers.
