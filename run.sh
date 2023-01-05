@@ -29,5 +29,5 @@ else
     grub-mkrescue -o target/some-kernel-grub.iso target/isodir
 
     # Run grub and kernel
-    qemu-system-x86_64 -cdrom target/some-kernel-grub.iso
+    qemu-system-x86_64 -cdrom target/some-kernel-grub.iso -serial stdio
 fi
